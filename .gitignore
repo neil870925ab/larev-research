@@ -1,0 +1,18 @@
+# ===== Reproducibility backups =====
+reproducibility_data.zip
+
+# ===== Trained models =====
+*.pt
+*.bin
+*.ckpt
+*.pth
+
+# ===== Generated outputs =====
+**/output/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== OS =====
+.DS_Store

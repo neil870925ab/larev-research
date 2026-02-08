@@ -1,0 +1,41 @@
+name: larevenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ipython
+  - jupyter
+  - ipykernel
+  - numpy<1.24
+  - pandas<2.0.0
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pytorch
+  - sentencepiece
+
+  - pip:
+      - transformers>=4.30.0
+      - datasets
+      - nltk
+      - tqdm
+      - rouge-score
+      - sacrebleu
+      - sacremoses
+      - torch
+      - absl-py
+      - aiohttp
+      - bert-score
+      - filelock
+      - huggingface-hub
+      - datasets==2.3.2
+      - accelerate
+      - protobuf>=3.20,<4.0
+      - pyarrow<12.0.0
+      - google-generativeai
+      - sentence_transformers
+      - evaluate
+      - openai
+
