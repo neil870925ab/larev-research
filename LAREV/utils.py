@@ -72,7 +72,7 @@ def load_data_ecqa(args, in_file, data_type=None, shuffle=True):
             examples = []
             if data_type == 'regular' or data_type == 'filtered':
                   # read baseline rationales (b)
-                  template_file = os.path.join(current_path, '../', 'generate_baseline_rationales', 'output', args.task, split_type+'_baseline_rationales_output.jsonl')
+                  template_file = os.path.join(current_path, '../', 'generate_baseline_rationales', 'output', args.task, 'baseline_rationales_'+split_type+'_output.jsonl')
                   template_file = os.path.normpath(template_file)
                   samples = []
                   with open(template_file, 'r', encoding='utf-8') as json_file:
