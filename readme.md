@@ -11,7 +11,7 @@ Please create and activate the environment before running any commands below:
 
 ```bash
 conda env create -f larev_environment.yml
-conda activate larev
+conda activate larevenv
 ```
 
 ---
