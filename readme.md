@@ -79,7 +79,7 @@ Then extract the archive and construct baseline rationales using the following c
 
 ```bash
 cd path/to/larev-research/generate_baseline_rationales/prepare_baseline_rationale/ECQA/seq2seq_converter/model_data
-mkdir -p question_converter-t5-3b
+mkdir -p question-converter-t5-3b
 tar -xzf question_converter-t5-3b.tar.gz -C question-converter-t5-3b
 cd ../
 bash ./run_construct_baseline_rationales.sh

@@ -8,6 +8,6 @@ Then extract the archive using the following commands:
 
 ```bash
 cd path/to/larev-research/generate_baseline_rationales/prepare_baseline_rationale/ECQA/seq2seq_converter/model_data
-mkdir -p question_converter-t5-3b
-tar -xzf question_converter-t5-3b.tar.gz -C question_converter-t5-3b
+mkdir -p question-converter-t5-3b
+tar -xzf question_converter-t5-3b.tar.gz -C question-converter-t5-3b
 ```
